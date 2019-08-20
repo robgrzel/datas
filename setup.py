@@ -4,18 +4,18 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
     name='datas',
-    version='0.1',
-    scripts=['datas'],
+    version='0.2.7',
+    scripts=['init'],
     author="Robert Grzelka",
     author_email="robert.grzelka@outlook.com",
     description="Collection of data structures and algorithms in python.",
     long_description=long_description,
     long_description_content_type="text/markdown",
     url="https://github.com/robgrzel/datas",
-    packages=setuptools.find_packages(),
+    packages=['datas'],
     classifiers=[
         "Programming Language :: Python :: 3",
-        "License :: OSI Approved :: BSD 2-Clause 'Simplified' License",
+        "License :: OSI Approved :: BSD License",
         "Operating System :: OS Independent",
     ],
 )
