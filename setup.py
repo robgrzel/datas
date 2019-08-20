@@ -4,7 +4,7 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
     name='datas',
-    version='0.2.7',
+    version='0.2.8',
     scripts=['init'],
     author="Robert Grzelka",
     author_email="robert.grzelka@outlook.com",
