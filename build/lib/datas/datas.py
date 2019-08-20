@@ -81,7 +81,7 @@ class trydict(dict):
 class nesteddict(dict):
 
     def __missing__(self, k):
-        v = self[k] = autodict(self, k)
+        v = self[k] = type(self)()
         return v
 
 
